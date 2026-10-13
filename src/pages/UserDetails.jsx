@@ -17,6 +17,11 @@ export default function UserDetails() {
     setUser(foundUser || null);
     setLoading(false);
     document.title = foundUser ? `${foundUser.name} | Team Directory` : "User Not Found | Team Directory";
+     document.title = "User Details | Team Directory";
+
+  return () => {
+    document.title = "Team Directory";
+  };
   }, [id]);
 
   if (loading) return <Loader message="Loading user details..." />;
@@ -67,4 +72,7 @@ export default function UserDetails() {
       </div>
     </section>
   );
+
+  
+
 }
