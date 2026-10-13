@@ -35,7 +35,7 @@ export default function Users({ favorites, onToggleFavorite }) {
       <div className="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
         <div>
           <p className="text-sm font-bold uppercase tracking-widest text-indigo-600 dark:text-indigo-300">The people</p>
-          <h1 className="mt-2 text-3xl font-black tracking-tight text-slate-950 dark:text-white">Team members</h1>
+          <h1 className="mt-2 text-3xl font-black tracking-tight text-slate-950 dark:text-white">Ang mga salarin</h1>
           <p className="mt-2 text-slate-600 dark:text-slate-400">Search profiles and save your favorites.</p>
         </div>
         <p className="text-sm font-semibold text-slate-500 dark:text-slate-400">
